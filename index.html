@@ -32,10 +32,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact">Contact</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,20 +53,26 @@
     </div>
   </nav>
   <!----About Section---->
+  <div class="container">
+    
+    <section>
+      <h1>
+        About
+      </h1>
+      <div class="row">
+        </div>
+    </section>
 
-  <section>
-    <h1>
-      About
-    </h1>
-  </section>
+    <hr>
+    <section class="section-sizing">
 
-  <hr>
-  <section>
-    <div class="container">
+      <div class="row">
       <h1>
         Contact
       </h1>
-
+      </div>
+      
+      
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#staticBackdrop">
     Contact Liam!
@@ -113,9 +119,60 @@
         </div>
       </div>
 
-    </div>
+  
   </section>
+  <hr>
+<section>
+  <h1> Portfolio</h1>
+  
+  
+  <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          E Commerce
+        </button>
+      </h2>
+    </div>
 
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+       This is a Django/Python Project with a list of functionalitys acting as an online store.
+       With Login Capabalities, Stripe Online Payments and a simple contact me app for communication between store and customer.
+       An Ecommerce store website for buying/ selling retro NBA Jerseys.
+       </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Booze Clues
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Enter Text Here </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Enter Text HEere   </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
 </body>
 
 
