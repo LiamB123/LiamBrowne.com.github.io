@@ -1,0 +1,9 @@
+.section-sizing{
+    height:90vh;
+    width:auto;
+    background-image: url();
+    
+}
+body{
+    background-image: url('static/img/background.jpeg');
+}
