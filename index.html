@@ -25,7 +25,7 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Liam Browne </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item active nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Portfolio!
         </a>
@@ -50,134 +44,161 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
+        <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+
       </ul>
 
     </div>
   </nav>
   <!----About Section---->
-  <div class="container">
-    
-    <section>
-      <h1>
-        Skills
-      </h1>
-      
-      <div class="row">
+
+  <section>
+    <div class="masthead-img">
+      <div class="container">
+
+
+        <h1 class="white-lettering">
+          Welcome!
+        </h1>
+
+        <div class="row">
         </div>
-    </section>
-
-    <hr>
-    <section class="section-sizing">
-
-      
-      <h1>
-        Contact
-      </h1>
-      <div class="row">
-        
       </div>
-      
-      
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#staticBackdrop">
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="contact-img">
+      <div class="container">
+
+
+
+        <h1>
+          Contact
+        </h1>
+        <div class="row row-flex">
+          <div class="vertical-align-center">
+            <h2>
+
+Hollllllah at ya boy
+            </h2>
+
+
+          </div>
+
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-success btn-block " data-toggle="modal" data-target="#staticBackdrop">
     Contact Liam!
     </button>
 
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Just a few details so I can respond!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Just a few details so I can respond!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-            </div>
-            <div class="modal-body">
+              </div>
+              <div class="modal-body">
 
-              <form>
-                <div class="form-group">
-                  <label for="Email">Email address</label>
-                  <input type="email" class="form-control" id="Email" placeholder="I will never share this information!">
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Is there a specific thing you want to talk about?</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+                <form>
+                  <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="I will never share this information!">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Is there a specific thing you want to talk about?</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
       <option>Just Saying Hi!</option>
       <option>Collaboration</option>
       <option>Business Opportunity</option>
     
     </select>
-                </div>
+                  </div>
 
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-                </div>
-                <button type="submit" class="btn btn-lg btn-outline-dark">Send!</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-outline-dark">Send!</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-  
   </section>
   <hr>
-<section>
-  <h1> Portfolio</h1>
-  
-  
-  <div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          E Commerce
-        </button>
-      </h2>
-    </div>
+  <section>
+    <div class="container">
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-       This is a Django/Python Project with a list of functionalitys acting as an online store.
-       With Login Capabalities, Stripe Online Payments and a simple contact me app for communication between store and customer.
-       An Ecommerce store website for buying/ selling retro NBA Jerseys.
-       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <h1> Portfolio</h1>
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          E Commerce  
+        </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Visit It here! -<a href="https://liams-the-store.herokuapp.com/" target="_blank"> https://liams-the-store.herokuapp.com/</a>
+              <hr> This is a Django/Python Project with a list of functionalitys acting as an online store. With Login Capabalities, Stripe Online Payments and a simple contact me app for communication between store and customer. An Ecommerce store website
+              for buying/ selling retro NBA Jerseys.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Booze Clues
         </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        Enter Text Here </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Enter Text Here </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Collapsible Group Item #3
         </button>
-      </h2>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Enter Text HEere </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-        Enter Text HEere   </div>
+
     </div>
-  </div>
-</div>
-</div>
-</section>
+    </div>
+  </section>
 </body>
 
 
