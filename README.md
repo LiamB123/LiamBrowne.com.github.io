@@ -1,18 +1,23 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# LiamBrowne.com . - https://liamb123.github.io/LiamBrowne.com.github.io/.
 
+##UX
 
-Hi there! Welcome to AWS Cloud9!
+##User Stories:
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+##Features
 
-Happy coding!
-# LiamBrowne.com
+##Features Left to Implement
 
+##Technologies Used
 
-All The Photos utilised in this site were found on on unsplash and can be found here : https://unsplash.com/
+##Testing
+
+##Deployment
+
+##Credits
+
+##Content
+
+##Media
+
+##Acknowledgements
