@@ -32,8 +32,25 @@
     margin-bottom: 0px;
 }
 
+
+.portfolio-img {
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: -1;
+    background-image: url("../img/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
 .white-lettering{
     color: white;
+}
+
+.portfolio-sizing{
+    padding-top: 20%;
+
 }
 
 
