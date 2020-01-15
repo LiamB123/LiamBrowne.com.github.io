@@ -1,20 +1,26 @@
 <!-- Image Classes-->
-.contact-img{
+
+
+#contact-img {
     min-height: 100vh;
     min-width: 100%;
     z-index: -1;
-    background-image: url("../img/keyboard.jpg");
+    background-image: url("../img/telephone.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
-.masthead-img{
-    min-height: 100vh;
+
+#title-img{
+    background-attachment: fixed;
+    background-image: url("../img/laptop.jpg");
+    background-position: bottom;
+    background-size: cover;
+   min-height: 100vh;
     min-width: 100%;
+    margin-bottom: 0px;
     z-index: -1;
-    background-image: url("../img/header.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .white-lettering{
@@ -23,8 +29,8 @@
 
 
 .vertical-align-center{
-    padding-top:70%;
+    padding-top:50%;
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
 }
     

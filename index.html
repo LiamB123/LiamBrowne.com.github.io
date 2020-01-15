@@ -17,6 +17,8 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+  <!--Boostrap Links for Font Awesome--->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
   <link rel="stylesheet" href="static/css/custom.css" type="text/css" />
 
@@ -26,7 +28,7 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Liam Browne </a>
+    <a class="navbar-brand" href="index.html">Liam Browne </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,30 +36,32 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Portfolio!
         </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">E-Commerce</a>
-            <a class="dropdown-item" href="#">Booze Clues</a>
+            <a class="dropdown-item" target="_blank" href="https://liams-the-store.herokuapp.com/">E-Commerce</a>
+            <a class="dropdown-item" href="portfolio.html">Booze Clues</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-iitem" href="https://github.com/LiamB123/">
+          
+           Check out my GitHub</a>
           </div>
         </li>
-        <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Skills.html">Skills<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
 
       </ul>
 
     </div>
   </nav>
-  <!----About Section---->
+  <!----Masthead Section---->
 
   <section>
-    <div class="masthead-img">
+    <div id="title-img">
       <div class="container">
 
 
@@ -65,141 +69,22 @@
           Welcome!
         </h1>
 
-        <div class="row">
-        </div>
+
       </div>
-    </div>
-  </section>
-
-  <hr>
-
-  <section>
-    <div class="contact-img">
-      <div class="container">
-
-
-
-        <h1>
-          Contact
-        </h1>
-        <div class="row row-flex">
-          <div class="vertical-align-center">
-            <h2>
-
-Hollllllah at ya boy
-            </h2>
-
-
-          </div>
-
-        </div>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-outline-success btn-block " data-toggle="modal" data-target="#staticBackdrop">
-    Contact Liam!
-    </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Just a few details so I can respond!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-              </div>
-              <div class="modal-body">
-
-                <form>
-                  <div class="form-group">
-                    <label for="Email">Email address</label>
-                    <input type="email" class="form-control" id="Email" placeholder="I will never share this information!">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">Is there a specific thing you want to talk about?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Just Saying Hi!</option>
-      <option>Collaboration</option>
-      <option>Business Opportunity</option>
-    
-    </select>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-lg btn-outline-dark">Send!</button>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-  <hr>
-  <section>
-    <div class="container">
-
-      <h1> Portfolio</h1>
-
-
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          E Commerce  
-        </button>
-            </h2>
-          </div>
-
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Visit It here! -<a href="https://liams-the-store.herokuapp.com/" target="_blank"> https://liams-the-store.herokuapp.com/</a>
-              <hr> This is a Django/Python Project with a list of functionalitys acting as an online store. With Login Capabalities, Stripe Online Payments and a simple contact me app for communication between store and customer. An Ecommerce store website
-              for buying/ selling retro NBA Jerseys.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Booze Clues
-        </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Enter Text Here </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              Enter Text HEere </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
     </div>
   </section>
 </body>
 
+<footer>
+  <div class="row">
+    <div class="col-4-sm col-4-md col-4-lg">
+
+      <i class="fab fa-twitter">
+        
+      </i>
+    </div>
+  </div>
+
+</footer>
 
 </html>
