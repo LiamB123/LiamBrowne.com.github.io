@@ -1,11 +1,11 @@
-<!-- Image Classes-->
+/*Image Classes*/
 
 
 #contact-img {
     min-height: 100vh;
     min-width: 100%;
     z-index: -1;
-    background-image: url("../img/telephone.jpg");
+    background-image: url("../img/keyboard.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -29,8 +29,10 @@
 
 
 .vertical-align-center{
-    padding-top:50%;
+    padding-top:40%;
     text-align: center;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
-    
+.tall{
+    height:20vh;
+}
